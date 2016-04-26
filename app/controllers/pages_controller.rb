@@ -4,4 +4,7 @@ class PagesController < ApplicationController
     @robots = Robot.limit(200)
   end
 
+  def examples
+  end
+
 end
