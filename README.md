@@ -50,3 +50,6 @@
 ### Hide The Filter
 * Hide the filter by default and add a "show filter" button that reveals the filter.
 * When the filter is showing, add a "hide filter" button that hides the filter.
+
+### Sweet Material Cards
+* Make that robot list into [material cards](https://getmdl.io/components/index.html#cards-section)
