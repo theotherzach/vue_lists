@@ -1,6 +1,9 @@
 ;(function () {
   "use strict"
 
-  console.log("start in app/assets/javascripts/components/robot_list.js")
+  Vue.component("vue-robot-list", {
+
+    template: "#robot-list-template"
+  })
 
 })();
