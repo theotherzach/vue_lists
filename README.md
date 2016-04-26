@@ -23,6 +23,9 @@ The goal of this exercise is display a filterable list of robots.
 * Use yesterday's lesson to point the vue-robot-list component at the template. "I'm the robot-list component" should appear on the screen
 
 ### v-model
+
+[video](http://youtu.be/cClCaLoKIXM)
+
 * Add a data method to our component that returns an object like this: `{ searchText: "hi i'm search text" }`. 
 * Display `searchText` in your component via `{{ searchText }}`
 * Check out the `v-model` #text [docs](http://vuejs.org/guide/forms.html#Basics-Usage)
@@ -37,6 +40,9 @@ The goal of this exercise is display a filterable list of robots.
 * Verify that `robots` is available to our component in the vue dev tools
 
 ### v-for
+
+[video](http://youtu.be/L-sl6W0i3lE)
+
 * Open a browser tab for the [list rendering docs](http://vuejs.org/guide/list.html#v-for)
 * Add a dumb repeater to our template. Something like: `<div v-for="robot in robots">hi</div>`. Verify that "hi" appears 200 times in the page.
 * Replace the dumb repeater above with an unordered list that prints the robot's name, specialty, owner, and serial_number.
