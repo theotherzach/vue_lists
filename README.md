@@ -1,5 +1,7 @@
 # Vue Lists
 
+The goal of this exercise is display a filterable list of robots.
+
 ## Setup
 
 * clone the repo and run `bundle install`
